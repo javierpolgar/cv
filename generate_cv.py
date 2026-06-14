@@ -108,6 +108,7 @@ def build_left():
         '✉  javier.polgar@gmail.com',
         '📍  Ávila',
         '🔗  linkedin.com/in/javier-garro-045084177',
+        '💻  github.com/javierpolgar',
     ]:
         items.append(Paragraph(line, S['contact']))
 
@@ -118,7 +119,7 @@ def build_left():
     items.append(hr())
     items.append(Spacer(1, 4))
     sobre = (
-        'Desarrollador Back-End con más de 5 años de experiencia en microservicios, '
+        'Desarrollador Back-End con 5 años de experiencia en microservicios, '
         'arquitecturas limpias y entornos de alta disponibilidad en sectores como banca '
         'y retail. Sólido conocimiento en DDD, arquitectura hexagonal y patrones avanzados '
         'de diseño. Experiencia creciente en el uso de herramientas de Inteligencia Artificial '
@@ -195,7 +196,7 @@ def build_right():
         {
             'company': 'SNGULAR (Inditex)',
             'title': 'Back-end Developer',
-            'dates': 'feb. 2025 - jun. 2026',
+            'dates': 'feb. 2025 - actualidad',
             'tech': 'Spring Boot 3.4, Java 21, OpenAPI, REST, API Gateway, Kafka, Avro, Schema Registry, Postgres, Redis, Github Actions CI/CD, JUnit, Mockito, TestContainers, Karate, Sonar, Grafana, MCP, SpecKit, Scrum.',
             'bullets': [
                 'Microservicios con Domain Driven Design, Arquitectura Hexagonal y Event Driven Design.',
