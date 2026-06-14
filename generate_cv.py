@@ -45,7 +45,7 @@ def make_styles():
     body_left = ParagraphStyle('BodyLeft', fontName='Helvetica', fontSize=8,
                                textColor=GRAY_DARK, leading=12)
     skill_item = ParagraphStyle('SkillItem', fontName='Helvetica', fontSize=8,
-                                textColor=GRAY_DARK, leading=13)
+                                textColor=GRAY_DARK, leading=11)
     contact = ParagraphStyle('Contact', fontName='Helvetica', fontSize=8,
                              textColor=GRAY_DARK, leading=14)
     job_company = ParagraphStyle('JobCompany', fontName='Helvetica-Bold',
@@ -139,7 +139,7 @@ def build_left():
     skill_blocks = [
         ('Backend', ['Java', 'Kotlin', 'Spring Boot', 'Microservicios', 'REST API', 'OAuth2.0']),
         ('Arquitectura', ['DDD', 'Arq. Hexagonal', 'Clean Code', 'CQS', 'Event Driven']),
-        ('DevOps / Infra', ['Docker', 'CI/CD', 'AWS', 'Kafka', 'Sonar', 'Git']),
+        ('DevOps / Infra', ['Docker', 'CI/CD', 'AWS', 'Kafka', 'Sonar', 'Git', 'Grafana']),
         ('Testing', ['JUnit', 'Mockito', 'TestContainers', 'Karate', 'TDD / BDD']),
         ('IA / Automatización', ['MCP', 'Spec-Driven Development', 'Claude Code', 'n8n', 'SpecKit']),
         ('Herramientas', ['Postman', 'SoapUI', 'IntelliJ IDEA', 'Jira', 'Agile/Scrum']),
@@ -158,7 +158,7 @@ def build_left():
 
 def build_right():
     items = []
-    items.append(Spacer(1, 8*mm))
+    items.append(Spacer(1, 0))
 
     # ── Educación ──────────────────────────────────────────────────
     items.append(Paragraph('🎓  Educación', S['section_title']))
